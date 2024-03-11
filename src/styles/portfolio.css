@@ -1,0 +1,17 @@
+.portInfo{
+    margin-top: 50px;
+    margin-left: 40px;
+    background-image: -webkit-linear-gradient(left, lightblue, white);
+    background-blend-mode: multiply;
+    color: rgb(54, 51, 51);
+}
+.myWork{
+    margin-left: 580px;
+}
+.homePageImg{
+    height: 200px;
+    margin: 40px;
+}
+.homePageImg:hover{
+    opacity: .4;
+}
