@@ -36,106 +36,229 @@
     height: 100px;
     border-radius: 600px;
 }
-@media (max-width: 768px) {
+@media (min-width: 365px) {
   /* Mobile styles */
+  .navContainer{
+    position: relative;
+  }
+  .span{
+    margin-left: 0px;
+  }
   .titleContainer{
-    margin-left: 60px;
+    margin-left: 15px;
+    margin-right: 0px;
     font-size: 30px;
   }
+  .navContainer > .firstLinks > .links{
+    margin: 4px;
+    display: inline;
+  }
+  .portInfo{
+    margin: 0px;
+  }
   .portInfo > .myWork{
-    margin-left: 250px;
+    margin-left: 80px;
   }
   .portInfo > .links{
-    margin-left: 100px;
+    margin-left: 0px;
+  }
+  .portInfo > .links .homePageImg1{
+    margin: 15px;
+    height: 160px;
+  }
+  .portInfo > .links .homePageImg2{
+    margin: 15px;
+    height: 160px;
+  }
+  .portInfo > .links .homePageImg3{
+    margin: 15px;
+    height: 160px;
   }
  .pwBody > .h1{
-  margin-left: 270px;
+  margin-left: 90px;
+  margin-top: 40px;
  }
  .pwBody > .imgContainer > .pathicWayImg1{
-  margin-left: 80px;
+  margin-left: 0px;
+  height: 500px;
   margin-right: 0px;
  }
  .pwBody > .imgContainer > .pathicWayImg2{
-  margin-left: 5px;
+  margin-left: 0px;
+  height: 400px;
   margin-right: 0px;
  }
  .pwBody > .imgContainer > .pathicWayImg3{
-  margin-left: 80px;
+  margin-left: 0px;
+  height: 500px;
   margin-right: 0px;
  }
  .pwBody > .imgContainer > .pathicWayImg4{
-  margin-left: 30px;
+  margin-left: 0px;
+  height: 270px;
   margin-right: 0px;
  }
  .bookRealmContainer > .h1{
-  margin-left: 250px;
+  margin-left: 90px;
+  margin-top: 40px;
  }
  .bookRealmContainer > .imgContainer > .lvl5Img1{
-  margin-left: 50px;
-  height: 2600px;
+  margin-left: 20px;
+  height: 1400px;
   margin-right: 0px;
  }
  .bookRealmContainer > .imgContainer > .lvl5Img2{
   margin-left: 10px;
-  height: 480px;
+  height: 240px;
   margin-right: 0px;
  }
  .bookRealmContainer > .imgContainer > .lvl5Img3{
-  margin-left: 30px;
-  height: 700px;
+  margin-left: 10px;
+  height: 370px;
   margin-right: 0px;
  }
  .bookRealmContainer > .imgContainer > .lvl5Img4{
-  margin-left: 40px;
-  height: 700px;
+  margin-left: 10px;
+  height: 380px;
   margin-right: 0px;
  }
  .bookRealmContainer > .imgContainer > .lvl5Img5{
   margin-left: 10px;
-  height: 270px;
+  height: 135px;
   margin-right: 0px;
  }
  .bookRealmContainer > .imgContainer > .lvl5Img6{
   margin-left: 10px;
-  height: 270px;
+  height: 135px;
   margin-right: 0px;
  }
  .movieBuff > .h1{
-  margin-left: 270px;
+  margin-left: 90px;
+  margin-top: 40px;
  }
  .movieBuff > .imgContainer > .lvl4Img1{
   margin-left: 10px;
-  height: 2400px;
+  height: 1199px;
   margin-right: 0px;
  }
  .movieBuff > .imgContainer > .lvl4Img2{
   margin-left: 5px;
-  height: 270px;
+  height: 135px;
   margin-right: 0px;
  }
  .movieBuff > .imgContainer > .lvl4Img3{
   margin-left: 5px;
-  height: 270px;
+  height: 135px;
   margin-right: 0px;
  }
  .aboutContainer > .h1{
-  margin-left: 270px;
+  margin-left: 90px;
+  margin-top: 40px;
  }
  .contactInfo > .h1{
-  margin-left: 270px;
+  margin-left: 90px;
+  margin-top: 40px;
  }
  .contactInfo > .list{
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 50px;
  }
 
 }
 
 /* Tablet styles */
 @media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    font-size: 18px; /* Adjust as needed */
-  }
+    /* Mobile styles */
+    .titleContainer{
+      margin-left: 60px;
+      font-size: 30px;
+    }
+    .portInfo > .myWork{
+      margin-left: 250px;
+    }
+    .portInfo > .links{
+      margin-left: 100px;
+    }
+   .pwBody > .h1{
+    margin-left: 270px;
+   }
+   .pwBody > .imgContainer > .pathicWayImg1{
+    margin-left: 80px;
+    margin-right: 0px;
+   }
+   .pwBody > .imgContainer > .pathicWayImg2{
+    margin-left: 5px;
+    margin-right: 0px;
+   }
+   .pwBody > .imgContainer > .pathicWayImg3{
+    margin-left: 80px;
+    margin-right: 0px;
+   }
+   .pwBody > .imgContainer > .pathicWayImg4{
+    margin-left: 30px;
+    margin-right: 0px;
+   }
+   .bookRealmContainer > .h1{
+    margin-left: 250px;
+   }
+   .bookRealmContainer > .imgContainer > .lvl5Img1{
+    margin-left: 50px;
+    height: 2600px;
+    margin-right: 0px;
+   }
+   .bookRealmContainer > .imgContainer > .lvl5Img2{
+    margin-left: 10px;
+    height: 480px;
+    margin-right: 0px;
+   }
+   .bookRealmContainer > .imgContainer > .lvl5Img3{
+    margin-left: 30px;
+    height: 700px;
+    margin-right: 0px;
+   }
+   .bookRealmContainer > .imgContainer > .lvl5Img4{
+    margin-left: 40px;
+    height: 700px;
+    margin-right: 0px;
+   }
+   .bookRealmContainer > .imgContainer > .lvl5Img5{
+    margin-left: 10px;
+    height: 270px;
+    margin-right: 0px;
+   }
+   .bookRealmContainer > .imgContainer > .lvl5Img6{
+    margin-left: 10px;
+    height: 270px;
+    margin-right: 0px;
+   }
+   .movieBuff > .h1{
+    margin-left: 270px;
+   }
+   .movieBuff > .imgContainer > .lvl4Img1{
+    margin-left: 10px;
+    height: 2400px;
+    margin-right: 0px;
+   }
+   .movieBuff > .imgContainer > .lvl4Img2{
+    margin-left: 5px;
+    height: 270px;
+    margin-right: 0px;
+   }
+   .movieBuff > .imgContainer > .lvl4Img3{
+    margin-left: 5px;
+    height: 270px;
+    margin-right: 0px;
+   }
+   .aboutContainer > .h1{
+    margin-left: 270px;
+   }
+   .contactInfo > .h1{
+    margin-left: 270px;
+   }
+   .contactInfo > .list{
+    font-size: 20px;
+    margin-left: 200px;
+   }
 }
 
 /* Desktop styles */

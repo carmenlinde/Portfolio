@@ -14,13 +14,13 @@ export default function Portfolio() {
             <h1 className='myWork'>My Work</h1>
             <div className='links'>
             <Link to="/pathicWay" rel="noopener noreferrer">
-                <img src={pathicWay} alt="" className='homePageImg' />
+                <img src={pathicWay} alt="" className='homePageImg1' />
             </Link>
             <Link to="/lvl5" rel="noopener noreferrer">
-                <img src={lvl5Home} alt="" className='homePageImg' />
+                <img src={lvl5Home} alt="" className='homePageImg2' />
             </Link>
             <Link to="/lvl4" rel="noopener noreferrer">
-                <img src={lvl4Home} alt="" className='homePageImg' />
+                <img src={lvl4Home} alt="" className='homePageImg3' />
             </Link>
             </div>
 

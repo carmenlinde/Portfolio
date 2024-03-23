@@ -18,9 +18,11 @@ export default function App() {
                     <img src='' alt="" className='lexie' />
                     <h1 className='name'>Lexie Linde </h1> <p className='span'>Portfolio</p>
                 </div>
+                <div className='firstLinks'>
                 <Link className = "links"to="/">Portfolio</Link>
                 <Link className = "links"to="/about">About</Link>
                 <Link className = "links"to="/contact">Contact</Link>
+                </div>
             </nav>
             <Routes>
                 <Route path="/" element={<Portfolio />} />

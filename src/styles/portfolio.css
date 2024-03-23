@@ -8,11 +8,25 @@
 .myWork{
     margin-left: 580px;
 }
-.homePageImg{
+.homePageImg1{
     height: 200px;
     margin: 40px;
 }
-.homePageImg:hover{
+.homePageImg2{
+    height: 200px;
+    margin: 40px;
+}
+.homePageImg3{
+    height: 200px;
+    margin: 40px;
+}
+.homePageImg1:hover{
+    opacity: .4;
+} 
+.homePageImg2:hover{
+    opacity: .4;
+} 
+.homePageImg3:hover{
     opacity: .4;
 } 
 
