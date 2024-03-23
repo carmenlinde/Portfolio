@@ -9,7 +9,7 @@ import Lvl5Add2 from '../images/lvl5Add2.png'
 
 export default function Lvl5() {
     return (
-        <div>
+        <div className='bookRealmContainer'>
             <h1 className='h1'>The Book Realm</h1>
             <p className='para'>The Book Realm is a website that I crafted to cater to book enthusiasts, facilitating effortless navigation through a
                 continuously expanding database. This platform allows users to seamlessly add their favorite books or discover new literary works.

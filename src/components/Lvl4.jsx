@@ -7,7 +7,7 @@ import Lvl4Add from '../images/lvl4Add.png'
 
 export default function Lvl4() {
     return (
-        <div>
+        <div className='movieBuff'>
             <h1 className='h1'>Movie Buff</h1>
             <p className='para'>I have developed a website with a concept similar to the Book Realm, focusing on an ever-expanding database.
                 However, in this case, the platform is dedicated to movies. My creation allows users to contribute to a growing

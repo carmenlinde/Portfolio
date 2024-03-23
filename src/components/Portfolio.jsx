@@ -12,6 +12,7 @@ export default function Portfolio() {
     return (
         <div className='portInfo'>
             <h1 className='myWork'>My Work</h1>
+            <div className='links'>
             <Link to="/pathicWay" rel="noopener noreferrer">
                 <img src={pathicWay} alt="" className='homePageImg' />
             </Link>
@@ -21,6 +22,7 @@ export default function Portfolio() {
             <Link to="/lvl4" rel="noopener noreferrer">
                 <img src={lvl4Home} alt="" className='homePageImg' />
             </Link>
+            </div>
 
 
         </div>
