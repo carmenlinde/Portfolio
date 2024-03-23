@@ -15,6 +15,120 @@
 .homePageImg:hover{
     opacity: .4;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, p, li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.links {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links:hover {
+    color: #ccc;
+}
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.links {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links:hover {
+    color: #ccc;
+}
+.portInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.homePageImg {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+.pwBody, .lvl5, .lvl4 {
+    padding: 20px;
+}
+
+.h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.imgContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.pathicWayImg1, .pathicWayImg2, .pathicWayImg3, .pathicWayImg4,
+.lvl5Img1, .lvl5Img2, .lvl5Img3, .lvl5Img4, .lvl5Img5, .lvl5Img6,
+.lvl4Img1, .lvl4Img2, .lvl4Img3 {
+    width: 100%;
+    height: auto;
+}
+
 /* Small devices (phones) */
 @media only screen and (max-width: 600px) {
     .portInfo {
