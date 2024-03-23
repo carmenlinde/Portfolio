@@ -27,7 +27,8 @@ body {
     body {
         display: flex;
         font-size: 20px;
-        
+        max-width: fit-content;
+
     }
 }
 
