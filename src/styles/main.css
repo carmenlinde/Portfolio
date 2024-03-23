@@ -167,8 +167,8 @@
 }
 
 /* Tablet styles */
-@media (min-width: 366px) and (max-width: 1024px) {
-    /* Mobile styles */
+/* @media (min-width: 366px) and (max-width: 1024px) {
+    /* Mobile styles 
     .titleContainer{
       margin-left: 60px;
       font-size: 30px;
@@ -259,11 +259,11 @@
     font-size: 20px;
     margin-left: 200px;
    }
-}
+}*/
 
-/* Desktop styles */
+/* Desktop styles 
 @media (min-width: 1025px) {
   body {
-    font-size: 20px; /* Adjust as needed */
+    font-size: 20px; /* Adjust as needed 
   }
-}
+} */
