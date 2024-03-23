@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import PathicWay from './components/PathicWay'
 import Lvl5 from './components/Lvl5'
 import Lvl4 from './components/Lvl4'
-import LexiePhoto from './images/lexie.jpeg'
+
 
 
 export default function App() {
