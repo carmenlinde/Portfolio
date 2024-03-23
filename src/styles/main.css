@@ -44,9 +44,12 @@
 }
 
 /* Tablet styles */
-@media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    font-size: 18px; /* Adjust as needed */
+@media (min-width: 769px) {
+  .titleContainer {
+    margin-left: 700px;
+  }
+  .myWork{
+    margin-left: 800px;
   }
 }
 
