@@ -33,7 +33,7 @@ body {
 }
 
 /* Tablet styles */
-@media (min-width: 429px) and (max-width: 768px) {
+@media (min-width: 768px) {
     body {
         /* Tablet-specific styles */
     }
