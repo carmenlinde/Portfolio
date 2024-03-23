@@ -1,4 +1,4 @@
-.portInfo{
+/* .portInfo{
     margin-top: 50px;
     margin-left: 40px;
     background-image: -webkit-linear-gradient(left, lightblue, white);
@@ -14,7 +14,7 @@
 }
 .homePageImg:hover{
     opacity: .4;
-}
+} */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
