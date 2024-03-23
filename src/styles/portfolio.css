@@ -15,24 +15,32 @@
 .homePageImg:hover{
     opacity: .4;
 }
-@media (min-width: 428px) {
-    /* Mobile styles */
+/* Base styles for all devices */
+body {
+    display: block;
+    font-size: 16px; /* Base font size */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Mobile styles */
+@media (max-width: 428px) {
     body {
+        /* Mobile-specific styles */
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 429px) and (max-width: 768px) {
+    body {
+        /* Tablet-specific styles */
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    body {
+        /* Desktop-specific styles */
+        font-size: 18px; /* Adjusted font size for desktop */
         display: flex;
-        overflow: hidden;
     }
-  }
-  
-  /* Tablet styles */
-  @media (min-width: 769px) {
-   body{
-    display: flex;
-   }
-  }
-  
-  /* Desktop styles */
-  @media (min-width: 1025px) {
-    body {
-      font-size: 20px; /* Adjust as needed */
-    }
-  }
+}
