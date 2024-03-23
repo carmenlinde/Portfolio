@@ -36,26 +36,4 @@
     height: 100px;
     border-radius: 600px;
 }
-@media (max-width: 768px) {
-  /* Mobile styles */
-  body {
-    font-size: 16px; /* Adjust as needed */
-  }
-}
 
-/* Tablet styles */
-@media (min-width: 769px) {
-  .titleContainer {
-    margin-left: 700px;
-  }
-  .myWork{
-    margin-left: 800px;
-  }
-}
-
-/* Desktop styles */
-@media (min-width: 1025px) {
-  body {
-    font-size: 20px; /* Adjust as needed */
-  }
-}

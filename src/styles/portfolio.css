@@ -15,3 +15,23 @@
 .homePageImg:hover{
     opacity: .4;
 }
+@media (max-width: 768px) {
+    /* Mobile styles */
+    body {
+        display: flex;
+    }
+  }
+  
+  /* Tablet styles */
+  @media (min-width: 769px) {
+   body{
+    display: flex;
+   }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 1025px) {
+    body {
+      font-size: 20px; /* Adjust as needed */
+    }
+  }
