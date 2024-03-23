@@ -24,7 +24,7 @@ body {
 
 /* Mobile styles */
 @media (max-width: 428px) {
-    #root {
+    .portInfo {
         align-items: center;
         display: flex;
         font-size: 5px;
