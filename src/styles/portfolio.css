@@ -19,7 +19,7 @@
 /* Small devices (phones) */
 @media only screen and (max-width: 600px) {
     .portInfo {
-        flex-direction: column;
+        display: flex;
         align-items: center;
         overflow: hidden;
     }
