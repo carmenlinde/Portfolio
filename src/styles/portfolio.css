@@ -19,6 +19,7 @@
     /* Mobile styles */
     body {
         display: flex;
+        overflow: hidden;
     }
   }
   
