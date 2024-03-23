@@ -24,7 +24,7 @@ body {
 
 /* Mobile styles */
 @media (max-width: 428px) {
-    body {
+    #root {
         display: flex;
         font-size: 5px;
         margin: 0px;
