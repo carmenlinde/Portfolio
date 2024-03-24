@@ -36,71 +36,70 @@
     height: 100px;
     border-radius: 600px;
 }
-/* Example using Bootstrap's classes */
 .portInfo {
-  margin-top: 40px; /* Added some top margin */
+  margin-top: 40px; 
 }
 
 .portInfo .myWork {
-  text-align: center; /*Center the heading */
+  text-align: center;
 }
 
 .portInfo .homePageImg {
   margin: 15px;
-  height: 300px; /* Set a fixed height for the images */
-  border-radius: 10px; /* Rounded corners */
+  height: 300px; 
+  border-radius: 10px; 
 }
-/* Center-align images */
+
 .center-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  max-width: 60%; /* Ensures image doesn't exceed its container */
+  max-width: 60%; 
 }
 .center-image2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  max-width: 70%; /* Ensures image doesn't exceed its container */
+  max-width: 70%; 
 }
 .center-image3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  max-width: 50%; /* Ensures image doesn't exceed its container */
+  max-width: 50%; 
 }
 .center-image4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  max-width: 50%; /* Ensures image doesn't exceed its container */
+  max-width: 50%; 
 }
 
 
-/* Responsive adjustments using Bootstrap's classes */
+/* Responsive adjustments using Bootstrap's classes
 @media (max-width: 576px) {
   .portInfo .myWork {
       font-size: 24px;
-      margin-left: 0px; /* Adjust font size for smaller screens */
+      margin-left: 0px;
   }
   
   .portInfo .homePageImg {
       height: 150px;
-       align-self: center;/* Adjust image height for smaller screens */
+       align-self: center;
   }
   .aboutContainer .h1 {
     font-size: 24px;
     margin-left: 0px;
-    text-align: center; /* Adjust font size for smaller screens */
+    text-align: center; 
 }
 .container .h1 {
   font-size: 24px;
   margin-left: 0px;
-  text-align: center; /* Adjust font size for smaller screens */
+  text-align: center;
 }
 .container .nameTag{
   font-size: 30px;
@@ -126,30 +125,30 @@
 }
 }
 
-/* Adjustments for tablets */
+
 @media (min-width: 577px)  {
   .portInfo .homePageImg {
-      height: 300px; /* Adjust image height for tablets */
+      height: 300px; 
   }
   .portInfo .myWork {
     font-size: 30px;
     margin-left: 0px;
-    text-align: center; /* Adjust font size for smaller screens */
+    text-align: center; 
 }
 .aboutContainer .h1 {
   font-size: 30px;
   margin-left: 0px;
-  text-align: center; /* Adjust font size for smaller screens */
+  text-align: center;
 }
 .container .h1 {
 font-size: 30px;
 margin-left: 0px;
-text-align: center; /* Adjust font size for smaller screens */
+text-align: center; 
 }
 .container .list {
   font-size: 30px;
   margin-left: 0px;
-  text-align: center; /* Adjust font size for smaller screens */
+  text-align: center; 
   }
   .container #navbarNav{
     font-size: 20px;
@@ -166,7 +165,7 @@ text-align: center; /* Adjust font size for smaller screens */
     position: absolute;
     
   }
-  /* .container .imgContainer .pathicWayImg1{
+   .container .imgContainer .pathicWayImg1{
     margin-left: 10px;
     height: 800px;
   }
@@ -181,6 +180,6 @@ text-align: center; /* Adjust font size for smaller screens */
   .container .imgContainer .pathicWayImg4{
     margin-left: 10px;
     height: 400px;
-  } */
+  } 
 
-}
+} */
