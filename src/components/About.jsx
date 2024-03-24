@@ -5,7 +5,7 @@ import '../styles/about.css'
 export default function About() {
     return (
         <div className='aboutContainer'>
-            <h1 className='h1'>About Me</h1>
+            <h1 className='h1 text-center'>About Me</h1>
             <p className='para'>
                 Hello, my name is Lexie Linde. Im 22 years old and an Army veteran with a strong work ethic and a passion for
                 learning. I am great at efficiently completing tasks and I consistently strive for excellence in all that I do. Whether
