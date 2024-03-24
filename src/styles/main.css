@@ -36,7 +36,7 @@
     height: 100px;
     border-radius: 600px;
 }
-@media (min-width: 365px) {
+@media (min-width: 365px) and (max-width: 450px) {
   /* Mobile styles */
   .navContainer{
     position: relative;
